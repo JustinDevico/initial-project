@@ -512,3 +512,132 @@ footer {
 .footer21_svg {
   padding: 10.6px 0 22.8px 0;
 }
+
+@media screen and (max-width: 1550px) {
+  main {
+    padding: 0 242px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main {
+    padding: 0 300px;
+  }
+
+  .part2 {
+    display: block;
+  }
+
+  .part22 {
+    margin-left: 0;
+  }
+
+  .part3 {
+    display: block;
+  }
+
+  .part31 {
+    width: 100%;
+  }
+
+  .part32 {
+    margin-left: 0;
+    display: flex;
+  }
+
+  .part4_bottom {
+    display: block;
+  }
+  .part4_bt {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  main {
+    padding: 0 250px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  main {
+    padding: 0 200px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  main {
+    padding: 0 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  main {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .part21_b1,
+  .part21_b2,
+  .part21_b3 {
+    padding: 19px 0;
+    display: block;
+  }
+
+  .part21_b1i {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    margin-right: 0;
+  }
+
+  .part32 {
+    margin-left: 0;
+    display: block;
+  }
+
+  .part32_left {
+    width: 100%;
+  }
+
+  .part32_l1,
+  .part32_l2,
+  .part32_l3 {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    padding: 9.5px 35px;
+  }
+
+  .part32_left div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 186px;
+  }
+
+  .part32_l1,
+  .part32_l2,
+  .part32_l3 {
+    width: 186px;
+    height: 121px;
+    border-radius: 7px;
+    padding: 9.5px 35px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .part32_left div {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+}
